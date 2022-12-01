@@ -1,5 +1,13 @@
-Also look in `atom3d-Pruning.ipynb` and `ComparisonsNet.ipynb` for separate running examples.
+# Model Preserving Compression for Neural Networks
 
+A pruning method for deep networks which preserves per-example decisions beyond top-1 accuracy, using the interpolative decomposition.
+Our method determines per-layer compression ratios automatically, does not require fine-tuning, and can be trivially composed with any other compression method.
+
+[NeurIPS Proceedings](https://openreview.net/pdf?id=gt-l9Hu2ndd)
+
+
+---
+Also look in `atom3d-Pruning.ipynb`, `ComparisonsNet.ipynb`, `Iter-PerClass-ClassRemoved-Figure.ipynb` for separate running examples.
 
 First, we prune a pretrained model with ID:
 ```
