@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="images/ID_Thumbnail.pdf" width="840">
+  <br />
+  <br />
+  </p>
+  
 # Model Preserving Compression for Neural Networks
 
 A pruning method for deep networks which preserves per-example decisions beyond top-1 accuracy, using the interpolative decomposition.
